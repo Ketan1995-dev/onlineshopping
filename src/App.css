@@ -15,13 +15,17 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header a{
+  margin-right: 50px;
 }
 
 .App-link {
@@ -35,4 +39,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.product{
+  border: 1px solid black;
+  width: 250px;
+  height: 400px;
+  margin-top: 10px;
+  margin-left: 20px;
+  box-shadow: 10px 10px 8px #a3a6af;
+}
+
+.product:hover{
+  margin-top: 15px;
+  margin-left: 25px;
+  box-shadow: 10px 10px 8px #a3a6af;
+}
+
+.product img{
+  margin-top: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.container{
+  display: flex;
+}
+
+.addtocart{
+  width: 100px;
+  height: 30px;
+  background-color: yellow;
+  box-shadow: 2px 2px 2px #ccd0da;
 }
